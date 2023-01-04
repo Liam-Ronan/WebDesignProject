@@ -17,7 +17,7 @@
 				<div class="container-xl">
 						<a class="navbar-brand text-primary fs-2" href="#">EasyEvents</a>
 						<button
-							class="navbar-toggler bg-primary"
+							class="navbar-toggler bg-secondary"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent"
@@ -30,23 +30,26 @@
 					<div class="container">
 
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto fs-5 pt-2">
-								<li class="nav-item">
-									<a class="nav-link text-light" href="#">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="pages/events.html">Events</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="about.html">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-light" href="tickets.html">Your tickets</a>
-								</li>
-							</ul>
-
+                            <div class="container">
+                                <ul class="navbar-nav fs-5 gap-4 justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="../Pages/events.html">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="tickets.html">Your tickets</a>
+                                    </li>
+                                </ul>
+                            </div>
+				
+                            
 							<button class="btn btn-outline-primary rounded-pill fs-5">
-								<a class="text-light p-3 text-decoration-none" href="pages/register.html">Get started</a>
+								<a class="text-light text-center p-3 text-decoration-none" href="../Pages/register.html">Register</a>
 							</button>
 						</div>
 					
@@ -60,34 +63,31 @@
 			<div class="d-flex min-vh-100" style="background:url(images/blue-concert.png)  center / cover no-repeat; background-color:#0E171B
 			; background-blend-mode: overlay;">
 				<div class="align-self-center text-center text-light col-md-8 offset-md-2">
-					<div class="lc-block mb-4">
-						<div editable="rich">
-							<h1 class="display-1 fw-normal">Turn your event into a memorable <strong class="text-primary">Experience</strong><h1>
-						</div>
-					</div>
+					
+						
+							<h1 class="display-1 fw-normal pb-3">Turn your event into a memorable <strong class="text-primary">Experience</strong><h1>
+								
+							<p class="lead pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus porttitor dui.</p>
 			
-					<div class="lc-block">
-						<div editable="rich">
-							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus porttitor dui.</p>
-			
-							<p class="lead">Sim in vestibulum metus pulvinar sit amet.</p>
 			
 							<button class="btn btn-outline-primary rounded-pill fs-5 my-3">
-								<a class="text-light p-3 text-decoration-none" href="pages/events.html">Discover More</a>
+								<a class="text-light p-3 text-decoration-none" href="../Pages/events.html">Discover More</a>
 							</button>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</header>
 		
 		<main id="#main">
 			<div class="container-fluid py-5 bg-secondary">
-				<div class="container d-flex justify-content-center">
-					<div class="row w-50">		
-							<form class="form" role="search">
-								<input type="text" class="form-control rounded-pill text-dark" placeholder="Search Events">		
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-6">
+							<form class="form position-relative" role="search">
+								<a class="text-decoration-none text-dark" href="#"><i class="bi bi-search fs-5 position-absolute top-50 end-0 translate-middle-y px-4 pb-1 border border-3 rounded-5"></i></a>
+								<input type="text" class="form-control rounded-pill bg-secondary border border-3">		
 							</form>
+						</div>
 					</div>
 				</div>
 
@@ -113,19 +113,20 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
-								<img src="images/bcooper.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html"><img src="images/bcooper.png" class="card-img-top" alt="..." />
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<img src="images/adele.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
@@ -136,7 +137,7 @@
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<img src="images/show.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
@@ -147,7 +148,7 @@
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<img src="images/eminem.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
@@ -158,7 +159,7 @@
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<img src="images/spiral.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
@@ -169,7 +170,7 @@
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<img src="../images/coldplay.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 start-0 w-75 bg-dark rounded-4 pb-2">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
 									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
 									<p class="card-text fs-4 fw-normal text-secondary">
 										23rd June 2023
@@ -211,11 +212,12 @@
 					</div>
 				</div>
 
+			<div class="container">
 				<div class="row my-5">
 					<div class="col-md-6">
 						<img src="images/lights.png" class="img-fluid" lt="" />
 					</div>
-					<div class="col-md-5 text-start">
+					<div class="col-md-6 text-start">
 						<h1 class="fw-normal">
 							Never miss your Favourite events live
 						</h1>
@@ -223,27 +225,28 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 						</p>
 					</div>
-				</div>
-				
-				<div class="row my-5 py-5">
-					<div class="col-md-5 text-start mx-4">
-						<h1 class="fw-normal">
-							Never miss your Favourite events live
-						</h1>
-						<p class="fw-semibold text-light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-						</p>
-					</div>
-					<div class="col-md-6">
-						<img src="images/Bluee.png" class="img-fluid" lt="" />
-					</div>	
-				</div>
+				</div>	
+
 
 				<div class="row my-5">
+					<div class="col-md-6 ">
+						<img src="images/Bluee.png" class="img-fluid" lt="" />
+					</div>
+					<div class="col-md-6 text-start">
+						<h1 class="fw-normal">
+							Never miss your Favourite events live
+						</h1>
+						<p class="fw-semibold text-light">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
 					<div class="col-md-6">
 						<img src="images/Chairs.png" class="img-fluid" lt="" />
 					</div>
-					<div class="col-md-5 text-start">
+					<div class="col-md-6 text-start">
 						<h1 class="fw-normal">
 							Never miss your Favourite events live
 						</h1>
@@ -251,7 +254,10 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 						</p>
 					</div>
-				</div>		
+				</div>
+					
+			</div>
+				
 			</div>		
 		</div>
 		</main>
@@ -276,7 +282,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<h3>All events</h3>
-							<ul class="list-group text-light py-2">
+							<ul class="list-group text-light py-4">
 								<li
 									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
 								>
@@ -296,7 +302,7 @@
 						</div>
 						<div class="col-md-3">
 							<h3>About</h3>
-							<ul class="list-group text-light py-2">
+							<ul class="list-group text-light py-4">
 								<li
 									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
 								>
@@ -321,7 +327,7 @@
 						</div>
 						<div class="col-md-3">
 							<h3>Help Center</h3>
-							<ul class="list-group text-light py-2">
+							<ul class="list-group text-light py-4">
 								<li
 									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
 								>
@@ -346,7 +352,7 @@
 						</div>
 						<div class="col-md-3">
 							<h3>Download Our App</h3>
-							<img class="pt-3" src="logos/AppStore.png" alt="">
+							<img class="py-4" src="logos/AppStore.png" alt="">
 							<img class="pt-3" src="logos//GooglePlay.png" alt="">
 						</div>
 					</div>
