@@ -13,11 +13,11 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar fixed-top navbar-expand-lg py-4">
+			<nav class="navbar fixed-top bg-black opacity-75  navbar-expand-lg py-4">
 				<div class="container-xl">
-						<a class="navbar-brand text-primary fs-2" href="#">EasyEvents</a>
+						<a class="heading text-primary navbar-brand fs-2 fw-bold" href="#">EasyEvents</a>
 						<button
-							class="navbar-toggler bg-secondary"
+							class="navbar-toggler bg-light"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent"
@@ -31,7 +31,7 @@
 
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <div class="container">
-                                <ul class="navbar-nav fs-5 gap-4 justify-content-center">
+                                <ul class="heading navbar-nav fs-5 gap-4 justify-content-center">
                                     <li class="nav-item">
                                         <a class="nav-link text-light" href="../index.html">Home</a>
                                     </li>
@@ -39,7 +39,7 @@
                                         <a class="nav-link text-light" href="../Pages/events.html">Events</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-light" href="about.html">About</a>
+                                        <a class="nav-link text-light" href="../Pages/aboutUs.html">About</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-light" href="tickets.html">Your tickets</a>
@@ -48,8 +48,8 @@
                             </div>
 				
                             
-							<button class="btn btn-outline-primary rounded-pill fs-5">
-								<a class="text-light text-center p-3 text-decoration-none" href="../Pages/register.html">Register</a>
+							<button class="main-btn gradient btn btn-outline-primary rounded-pill fs-5 mt-2">
+								<a class="text-light text-center p-3 text-decoration-none fw-semibold" href="../Pages/register.html">Register</a>
 							</button>
 						</div>
 					
@@ -60,20 +60,16 @@
 			</nav>
 
 
-			<div class="d-flex min-vh-100" style="background:url(images/blue-concert.png)  center / cover no-repeat; background-color:#0E171B
-			; background-blend-mode: overlay;">
+			<div class="bg d-flex min-vh-100">
 				<div class="align-self-center text-center text-light col-md-8 offset-md-2">
-					
-						
-							<h1 class="display-1 fw-normal pb-3">Turn your event into a memorable <strong class="text-primary">Experience</strong><h1>
+					<h1 class="heading display-1 fw-normal pb-3 mt-5">Turn your event into a memorable <strong class="text-primary fw-bold">Experience</strong><h1>
 								
-							<p class="lead pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus porttitor dui.</p>
+					<p class="body lead pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus porttitor dui.Lorem ipsum dolor sit amet consectetur. Neque morbi sed mauris facilisi pulvinar nisl elit. Lacus elementum fringilla et habitant tellus a massa </p>
 			
 			
-							<button class="btn btn-outline-primary rounded-pill fs-5 my-3">
-								<a class="text-light p-3 text-decoration-none" href="../Pages/events.html">Discover More</a>
-							</button>
-					
+					<button class="gradient btn btn-outline-primary rounded-pill fs-5 my-2">
+						<a class="text-light p-3 text-decoration-none fw-semibold" href="../Pages/events.html">Discover More</a>
+					</button>					
 				</div>
 			</div>
 		</header>
@@ -84,8 +80,8 @@
 					<div class="row justify-content-center">
 						<div class="col-md-6">
 							<form class="form position-relative" role="search">
-								<a class="text-decoration-none text-dark" href="#"><i class="bi bi-search fs-5 position-absolute top-50 end-0 translate-middle-y px-4 pb-1 border border-3 rounded-5"></i></a>
-								<input type="text" class="form-control rounded-pill bg-secondary border border-3">		
+								<a class="text-decoration-none text-light" href="#"><i class="bi bi-search fs-5 position-absolute top-50 end-0 translate-middle-y px-4 pb-1 border border-3 rounded-5"></i></a>
+								<input type="text" class="body form-control rounded-pill bg-secondary border border-3 text-light fw-semibold" placeholder="Search events">		
 							</form>
 						</div>
 					</div>
@@ -94,16 +90,16 @@
 				<div class="container">
 					<div class="row justify-content-center py-5">
 						<div class="col-md-2 p-0">
-							<h3 class="text-center text-light">Recommended</h3>
-							<hr class="border border-primary border-5">
+							<h3 class="heading text-center text-light">Recommended</h3>
+							<a href="#"><hr class="border border-primary border-5"></a>
 						</div>
 						<div class="col-md-2 p-0">
-							<h3 class="text-center text-light">Featured</h3>
-							<hr class="border border-light border-5">
+							<h3 class="heading text-center text-light">Featured</h3>
+							<a href="#"><hr class="border border-light border-5"></a>
 						</div>
 						<div class="col-md-2 p-0">
-							<h3 class="text-center text-light">Top Selling</h3>
-							<hr class="border border-light border-5">
+							<h3 class="heading text-center text-light">Top Selling</h3>
+							<a href="#"><hr class="border border-light border-5"></a>
 						</div>
 					</div>
 				</div>
@@ -114,9 +110,9 @@
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
 								<a class="text-decoration-none text-light" href="Pages/eventDetails.html"><img src="images/bcooper.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
 								</a>
@@ -125,56 +121,66 @@
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html">
 								<img src="images/adele.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html">
 								<img src="images/show.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html">
 								<img src="images/eminem.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html">
 								<img src="images/spiral.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 p-3">
 							<div class="card text-light border-0 bg-secondary">
+								<a class="text-decoration-none text-light" href="Pages/eventDetails.html">
 								<img src="../images/coldplay.png" class="card-img-top" alt="..." />
-								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-dark rounded-4 pb-2">
-									<h3 class="card-title fs-1 fw-normal">Bradley Cooper</h3>
-									<p class="card-text fs-4 fw-normal text-secondary">
+								<div class="card-body position-absolute bottom-0 end-0 w-75 bg-black rounded-start pb-2">
+									<h3 class="heading card-title fs-3 fw-normal">Bradley Cooper</h3>
+									<p class="card-text fs-4 fw-light">
 										23rd June 2023
 									</p>
+								</a>
 								</div>
 							</div>
 						</div>
@@ -182,22 +188,22 @@
 				</div>
 
 				<div class="container text-center my-5">
-					<button class="btn btn-outline-primary rounded-pill fs-5">
-						<a class="text-light p-3 text-decoration-none" href="../Pages/events.html">View All Events</a>
+					<button class="other-btn rounded-pill fs-5">
+						<a class="body text-light p-3 text-decoration-none" href="../Pages/events.html">View All Events</a>
 					</button>
 				</div>			
 			
 			</div>
 
-		<div class="container-fluid bg-secondary">
-			<video class="w-100 embed-responsive embed-responsive-21by9" autoplay loop muted>
-				<source src="videos/Dance - 123072.mp4" type="video/mp4" />
+		<div class="vid container-fluid bg-secondary">
+			<video class="w-100 object-contain-cover" autoplay loop muted>
+				<source src="videos/pexels-aleks-b-5290028.mp4" type="video/mp4" />
 			</video>
 		</div>
 
 		<div class="container-fluid text-center py-5 bg-secondary text-light">
-				<p class="fs-3">Together with</p>	
-				<h4 class="text-decoration-none text-primary fw-normal display-4 py-4" href="#">EasyEvents</h4>
+				<p class="body fs-3">Together with</p>	
+				<h4 class="heading text-decoration-none text-primary fw-bold display-4 py-4" href="#">EasyEvents</h4>
 
 			<div class="container">
 				<div class="row my-4">
@@ -217,12 +223,12 @@
 					<div class="col-md-6">
 						<img src="images/lights.png" class="img-fluid" lt="" />
 					</div>
-					<div class="col-md-6 text-start">
+					<div class="col-md-6 heading text-start">
 						<h1 class="fw-normal">
 							Never miss your Favourite events live
 						</h1>
-						<p class="fw-semibold text-light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						<p class="body fw-normal text-light">
+							The concert took place inside the university auditorium. The planning to hold the concert began about a month ago. I was enlisted as a member of the event celebration committee. But later, I gave up the position for experiencing difficulties with my upcoming semester final. So, I was unaware of the concert schedule. I went early to enjoy the concert but it began at around 7.30pm while I was at the venue by 5.00 pm. I had to wait over two hours to enjoy the concert.
 						</p>
 					</div>
 				</div>	
@@ -232,12 +238,12 @@
 					<div class="col-md-6 ">
 						<img src="images/Bluee.png" class="img-fluid" lt="" />
 					</div>
-					<div class="col-md-6 text-start">
+					<div class="col-md-6 heading text-start">
 						<h1 class="fw-normal">
-							Never miss your Favourite events live
+							Be the first to recieve tickets
 						</h1>
-						<p class="fw-semibold text-light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						<p class="body fw-normal text-light">
+							The tour has taken place in Ottawa on July 23 of 2013 at Scotiabank Place. Although the venue was extra large for such a concert, on the concert day it was jam-packed with the audience and it was difficult for me to stand at the entrance queue with the expanding crowd. However, my friend rescued me from this trouble and I entered the Scotiabank Place for the first time to enjoy a live concert. The stage decoration was lucrative and the lighting system made the hall as a bright as daylight. Fortunately.
 						</p>
 					</div>
 				</div>
@@ -246,12 +252,12 @@
 					<div class="col-md-6">
 						<img src="images/Chairs.png" class="img-fluid" lt="" />
 					</div>
-					<div class="col-md-6 text-start">
+					<div class="col-md-6 heading text-start">
 						<h1 class="fw-normal">
-							Never miss your Favourite events live
+							The best events in the country
 						</h1>
-						<p class="fw-semibold text-light">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo est in lorem volutpat, et placerat nulla dapibus. Cras sit amet sapien ex. Donec vel lectus eget magna blandit rhoncus. Pellentesque viverra facilisis eros et consectetur. Sed malesuada tempor orci, in pretium mi pretium id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+						<p class="body fw-normal text-light">
+							It was a good luck for me that I have a friend who is working with the event management in Ottawa and helps me greatly in such cases like reserving concert tickets, arranging front row seats, special treatments in the venue and more other issues. But I truly enjoyed the Believe Tour though I did not get enough chance to sit or receive any special treatment from the organisers as the entire hall was overcrowded. Security people of the venue.
 						</p>
 					</div>
 				</div>
@@ -263,17 +269,17 @@
 		</main>
 
 		<footer>
-			<div class="container-fluid bg-dark pb-5 pt-4">
+			<div class="container-fluid bg-black pb-5 pt-4">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-9">
-							<h4 class="text-decoration-none text-primary fw-normal display-4 py-4" href="#">EasyEvents</h4>
+							<h4 class="heading text-decoration-none text-primary fw-normal display-4 py-4" href="#">EasyEvents</h4>
 						</div>
 						<div class="col-md-3 my-5">
-							<img class="img-fluid mx-2" src="social/FB.png" alt="Facebook">
-							<img class="img-fluid mx-2" src="social/instagram.png" alt="instagram">
-							<img class="img-fluid mx-2" src="social/linkedin.png" alt="LinkedIn">
-							<img class="img-fluid mx-2" src="social/Twitter.png" alt="Twitter">
+							<a class="social" href="#"><img class="img-fluid mx-2" src="social/FB.png" alt="Facebook"></a>
+							<a class="social" href="#"><img class="img-fluid mx-2" src="social/instagram.png" alt="instagram"></a>
+							<a class="social" href="#"><img class="img-fluid mx-2" src="social/linkedin.png" alt="LinkedIn"></a>
+							<a class="social" href="#"><img class="img-fluid mx-2" src="social/Twitter.png" alt="Twitter"></a>
 						</div>							
 					</div>
 				</div>
@@ -281,85 +287,83 @@
 				<div class="container text-light">
 					<div class="row">
 						<div class="col-md-3">
-							<h3>All events</h3>
-							<ul class="list-group text-light py-4">
+							<h3 class="heading">All events</h3>
+							<ul class="list-group text-light py-5">
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Your Tickets
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Events
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Terms & Conditions
 								</li>
 							</ul>
 						</div>
 						<div class="col-md-3">
-							<h3>About</h3>
-							<ul class="list-group text-light py-4">
+							<h3 class="heading">About</h3>
+							<ul class="list-group text-light py-5">
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Contact Us
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Partners
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Privacy & Cookies
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Guide
 								</li>
 							</ul>
 						</div>
 						<div class="col-md-3">
-							<h3>Help Center</h3>
-							<ul class="list-group text-light py-4">
+							<h3 class="heading">Help Center</h3>
+							<ul class="list-group text-light py-5">
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Get Started
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Policies
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									Newsletters
 								</li>
 								<li
-									class="list-group-item bg-dark text-light fs-5 border-0 px-0 py-1"
+									class="list-group-item bg-black text-light fs-5 border-0 px-0 py-1"
 								>
 									FAQs
 								</li>
 							</ul>
 						</div>
 						<div class="col-md-3">
-							<h3>Download Our App</h3>
-							<img class="py-4" src="logos/AppStore.png" alt="">
-							<img class="pt-3" src="logos//GooglePlay.png" alt="">
+							<h3 class="heading">Download Our App</h3>
+							<a href="#"><img class="pt-5" src="logos/AppStore.png" alt=""></a>
+							<a href="#"><img class="pt-4" src="logos//GooglePlay.png" alt=""></a>
 						</div>
 					</div>
 				</div>
 			</div>
-				
-	
 		</footer>
 		
 		<script

@@ -1,0 +1,91 @@
+//Import Heading font
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+//Import body font
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+//Import Functions
+@import "../node_modules/bootstrap/scss/functions";
+
+//Custom Variables
+
+
+//Custom Colours
+$secondary: #0E171B;
+$date-color: #848484;
+
+//Custom fonts
+$font-heading: "Raleway";
+$font-body: "Roboto";
+
+/* Globals */
+$linear: linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+
+//Import Variables
+@import "../node_modules/bootstrap/scss/variables";
+//Import Mixins
+@import "../node_modules/bootstrap/scss/mixins";
+
+//styles
+.gradient {
+    background: linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+.card {
+    &-text {
+        color: $date-color;
+        @extend .body;
+    }
+}
+
+.heading {
+    font-family: $font-heading;
+}
+
+.bg-img {
+    max-height: 550px;
+    background-color:#0E171B;
+    background-blend-mode: overlay;
+}
+
+.body {
+    font-family: $font-body;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.bg {
+    background:url(../images/blue-concert.png)  center / cover no-repeat; background-color:#0E171B; 
+    background-blend-mode: overlay;
+}
+
+
+@mixin myMixin {
+
+}
+
+.other-btn {
+    background-color: $secondary;
+    padding: 5px;
+    border: 3px solid #72EDF2;
+    transition: 1s ease-in-out;
+
+    &:hover {
+        border: 3px solid #5151E5;
+        transition: 1s ease-in-out;
+    }
+}
+
+
+
+//Import Buttons
+@import "../node_modules/bootstrap/scss/buttons";
+
+$custom-theme-colours: (
+    "black": #000000,
+);
+
+$theme-colors: map-merge($custom-theme-colours, $theme-colors);
+
+//Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
